@@ -1,0 +1,8 @@
+mixin showpost(content)
+  .contentbox.well(style=" ")
+    p(class='postContent')
+      | #{content}
+    //img.img-rounded.img-responsive(src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/p526x296/1798236_736599133056570_450232763719396123_n.png?oh=0df6bd12ce0733fe7db0646fd9e607ed&oe=54ED2971&__gda__=1421159122_466325c8c57c89aa004373ce3d1b3ebc", alt="example-image")
+  //- .commentbox.well(style=" ")
+    // <%-partial('comment',["hahahahahahaha" , "I dont agree to you"]) %>
+    input.form-control(type="text", style="margin-top:10px", value="", placeholder="Write a comment ...")

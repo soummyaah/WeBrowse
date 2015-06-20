@@ -1,0 +1,21 @@
+extends ../layouts/main.jade
+
+
+block content
+  ul.nav.nav-tabs(style="background-color:#16A085; margin-bottom:15px;")
+    li.active
+      a(href="#") lorem
+    li
+      a(href="#") ipsum
+    li
+      a(href="#") dor
+
+
+  .contentbox.well(style=" ")
+    textarea#mainTextPostArea(placeholder="lorem >>> ipsumj.")
+  .commentbox.well(style=" ")
+    button#mainPostButton.btn.btn-block.btn-lg.btn-primary( ) Post
+
+  include ../elements/posts.jade
+
+

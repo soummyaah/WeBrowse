@@ -1,0 +1,7 @@
+include ./post.jade
+
+#samplePostModel(style='display:none')
+  +showpost('')
+#allPosts
+  each post in posts
+    +showpost(post.content)

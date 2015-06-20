@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    // includes
+    
+    include ./includes.jade
+  body
+    // include navbar
+    
+    include ./navbar.jade
+    br
+    br
+    //br
+    .container
+      // sidebar
+      .col-xs-4
+        //- include ./column/homecolumn
+        
+      // main area
+      #mainArea.col-xs-8.connectedSortable
+        block content
+  
+    include ./footer.jade
+    

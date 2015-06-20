@@ -1,0 +1,251 @@
+ body
+ {
+  /*background-color:#edeff1;*/
+  /*#1ABC9C*/
+  /*edeff1*/
+  /*rgb(245, 248, 250);*/
+  background-color: #eeeeee;
+ }
+
+ .todo-search:before {
+            content: none;
+      }
+
+    /*  body {
+        -webkit-user-select: none;  
+        -moz-user-select: none;    
+        -ms-user-select: none;      
+        user-select: none;
+      }*/
+
+      .contentbox {
+        margin-right: 0;
+        margin-left: 0;
+        background-color: #fff;
+        border-color: #ddd;
+        border-width: 1px;
+        border-radius: 4px 4px 0 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+
+        margin-bottom: 0;
+        margin-top: 4px;
+
+        font-size:14px;
+        color:black;
+        padding-bottom: 5px;
+
+       /*  -webkit-box-shadow: rgba(0,0,0,0.25) 0 1px 3px 0;
+        box-shadow: rgba(0,0,0,0.25) 0 1px 3px 0;*/
+
+        /*box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);*/
+        /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);*/
+
+
+      }
+
+      .contentbox > p {
+         font-size:16px;
+         color:black;
+      }
+
+      .commentbox {
+        margin-right: 0;
+        margin-left: 0;
+        background-color: #fff;
+        border-color: #ddd;
+        border-width: 1px;
+        border-top: 0px;
+        border-radius: 0px 0px 4px 4px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        /*display:none;*/
+        background-color: rgb(246, 247, 248);
+         margin-bottom: 12px;
+         /*padding-bottom: 7px;*/
+
+        /*  -webkit-box-shadow: rgba(39,0,0,0.15) 02 1px 3px 0;
+        box-shadow: rgba(39,0,0,0.15) 0 1px 3px 0;
+
+
+ */
+
+         /*box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);*/
+         /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);*/
+    }
+
+    .triangle-isosceles {
+      position: relative;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 1px 0 1px;
+      color: white;
+      /*background: #f3961c;*/
+      /*background: -webkit-gradient(linear, 0 0, 0 100%, from(#f9d835), to(#f3961c));
+      background: -moz-linear-gradient(#f9d835, #f3961c);
+      background: -o-linear-gradient(#f9d835, #f3961c);
+      background: linear-gradient(#f9d835, #f3961c);*/
+      background-color: #3498DB;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      margin-left : 20px;
+      /*display:inline;*/
+      max-width: 100%;
+      /*white-space:nowrap;*/
+      clear: both;
+      float: left;
+
+    }
+
+    .triangle-isosceles.left {
+       background-color: #3498DB;
+       
+      }
+
+    .triangle-isosceles.left:before {
+      top: 10px;
+      left: -20px;
+      bottom: auto;
+      border-width: 10px 20px 10px 0;
+      border-color: transparent #3498DB;
+      }
+
+    .triangle-isosceles:before {
+      content: "";
+      position: absolute;
+      bottom: -15px;
+      left: 20px;
+      border-width: 15px 15px 0;
+      border-style: solid;
+      border-color: #3498DB transparent;
+      display: block;
+      width: 0;
+       }
+
+       .cc{
+       display: inline-block;
+        width:100%;
+        margin: 0;
+        padding: 0;
+       }
+
+
+#map-canvas {
+        height: 250px;
+        max-height: 250px;
+        margin:10px;
+        margin-left: 0;
+        border-radius: 4px 4px 4px 4px;
+
+        -webkit-box-shadow: rgba(0,0,0,0.25) 0 1px 3px 0;
+        box-shadow: rgba(0,0,0,0.25) 0 1px 3px 0;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+
+        
+      }
+
+      #mapContainer
+      {
+       /* height: 280px;
+        max-height: 280px;
+        overflow: hidden;*/
+      }
+
+
+
+.sidebar-image-gallery img { 
+  
+  opacity: 1; 
+  width:29%;
+  
+  margin:5px;
+
+   -webkit-box-shadow: rgba(0,0,0,0.25) 0 1px 3px 0;
+    box-shadow: rgba(0,0,0,0.25) 0 1px 3px 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+
+        
+}
+
+.sidebar-image-gallery img:hover { opacity: .8; }
+
+
+
+/*floating footer styles*/
+.Footer-link {
+color: #8899a6;
+}
+
+.Footer-item, .Footer-link {
+color: #8899a6;
+}
+
+.Footer-item {
+float: left;
+padding-right: 8px;
+}
+
+.Footer-item {
+display: inline;
+
+color: rgb(136, 153, 166);
+display: block;
+float: left;
+font-family: Arial, sans-serif;
+font-size: 14px;
+height: 18px; 
+padding-right: 8px;
+ 
+ 
+
+
+}
+
+.footer-container{
+  clear: both;
+  padding-left:10px;
+  padding-right: 10px;
+  margin-top: 28px;
+}
+
+.footer-container-div
+{
+  clear: both;
+}
+
+.footer-container:after {
+clear: both;
+}
+
+.footer-container:before, .footer-container:after {
+content: " ";
+display: table;
+}
+
+
+
+
+/*THE STYLES OF THE COVER PICTURE AREA */
+.ProfileAvatar {
+  background: #fff;
+  border: 5px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 1px rgba(136,153,166,0.15);
+  height: 200px;
+  position: relative;
+  width: 200px;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    margin-top: -150px;
+
+}
+
+.ProfileAvatar > img
+{
+  width: 190px;
+  border-radius: 12px;
+}

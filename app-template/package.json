@@ -1,0 +1,30 @@
+{
+  "name": "app-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "*",
+    "compression": "*",
+    "cookie-parser": "*",
+    "errorhandler": "*",
+    "express": "*",
+    "express-session": "*",
+    "glob": "*",
+    "jade": "*",
+    "lusca": "*",
+    "method-override": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "multer": "*",
+    "passport": "^0.2.2",
+    "passport-remember-me": "0.0.1",
+    "passport-twitter": "^1.0.3",
+    "path": "*",
+    "serve-favicon": "*",
+    "underscore": "*"
+  }
+}
