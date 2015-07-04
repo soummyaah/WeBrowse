@@ -1,0 +1,24 @@
+{
+  "name": "webrowse",
+  "version": "1.0.0",
+  "description": "Application created for AngelHack",
+  "main": "index,js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soummyaah/WeBrowse.git"
+  },
+  "keywords": [
+    "node",
+    "angelhack",
+    "browserSharing"
+  ],
+  "author": "Soumya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soummyaah/WeBrowse/issues"
+  },
+  "homepage": "https://github.com/soummyaah/WeBrowse#readme"
+}
